@@ -19,7 +19,7 @@ interface Project {
   title: string;
   description: string;
   link: string;
-  img: any;
+  img: string;
 }
 
 interface ContextType {
