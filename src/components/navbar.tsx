@@ -39,7 +39,9 @@ const Navbar = () => {
             height={50}
           />
           <span
-            className={`${darkMode ? "text-white" : "text-gray-700"} text-xl max-sm:hidden`}
+            className={`${
+              darkMode ? "text-white" : "text-gray-700"
+            } text-xl max-sm:hidden`}
           >
             Mohammad Taha
           </span>
@@ -216,18 +218,18 @@ const Navbar = () => {
               width="30"
               height="30"
               viewBox="0 0 28 28"
-              className={`${darkMode && 'fill-white'}`}
+              className={`${darkMode && "fill-white"}`}
             >
               <path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"></path>
             </svg>
           </button>
           <div>
             <ul
-              className={`sm:hidden transition-all duration-300 ${
-                navMenu ? "right-0 " : "-right-2/3 "
+              className={`sm:hidden fixed ease-in-out right-0 transition-transform duration-300 bg-black w-2/3 text-center gap-14 top-0 bottom-0 ${
+                navMenu ? "translate-x-0 " : "translate-x-full"
               } flex flex-col h-full ${
                 darkMode ? "bg-black/90" : "bg-white/90"
-              } bg-black w-2/3 text-center gap-15 absolute top-0 bottom-0`}
+              } `}
             >
               <button className="ml-5 mt-5" onClick={() => setNavMenu(false)}>
                 <svg
