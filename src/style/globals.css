@@ -60,11 +60,7 @@ body {
 :lang(en) {
   font-family: var(--font-poppins), sans-serif;
 }
-<<<<<<< HEAD
 body{
-=======
-:lang(fa) {
->>>>>>> 9a7fc00c464259779a457d32000e9a7a26d61706
   font-family: "Vazirmatn", sans-serif;
 }
 

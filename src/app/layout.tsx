@@ -14,23 +14,6 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "MohammadTaha | Frontend Developer",
   description: "Hi! I'm MohammadTaha, a young frontend developer passionate about React and building modern web experiences.",
-<<<<<<< HEAD
-  // keywords: [
-  //   "react", "react js", "next", "next js",
-  //   "front end", "front end developer",
-  //   "mohammadtaha", "mohammadtaha maleki",
-  //   "tailwind", "tailwindcss", "typescript",
-  //   "portfolio",
-  //   "ری اکت", "ری اکت جی اس", "نکست", "نکست جی اس",
-  //   "فرانت اند", "فرانت اند دولوپر", "محمدطاها", "محمدطاها ملکی", "پورتفولیو",
-  //   "تیلویند", "تیلویند سی اس اس", "تایپ اسکریپت",
-  //   "web development", "frontend development", "javascript developer",
-  //   "توسعه وب", "برنامه نویس جاوااسکریپت", "توسعه‌دهنده فرانت‌اند"
-  // ],
-  // authors: [{name:"MohammadTaha"},{name:"محمدطاها"}],
-  // robots: "index, follow",
-  // viewport: "width=device-width, initial-scale=1.0",
-=======
   keywords: [
     "react", "react js", "next", "next js",
     "front end", "front end developer",
@@ -46,7 +29,6 @@ export const metadata: Metadata = {
   authors: [{name:"MohammadTaha"},{name:"محمدطاها"}],
   robots: "index, follow",
   viewport: "width=device-width, initial-scale=1.0",
->>>>>>> 9a7fc00c464259779a457d32000e9a7a26d61706
 };
 
 export default function RootLayout({
