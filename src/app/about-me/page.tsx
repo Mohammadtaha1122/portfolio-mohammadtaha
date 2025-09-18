@@ -10,7 +10,7 @@ const AboutMe = () => {
   return (
     <div className={`${darkMode ? "bg-black" : 'bg-black/5'} min-h-screen`} >
       <section className="container py-16 leading-8">
-        <div className={`mx-auto text-lg max-md:text-sm space-y-8  ${darkMode ? "text-gray-300 bg-white/5" : 'text-gray-700'} rounded-2xl shadow-lg p-8`}>
+        <div className={`mx-auto text-lg max-md:text-[16px] space-y-8  ${darkMode ? "text-gray-300 bg-white/5" : 'text-gray-700'} rounded-2xl shadow-lg p-8`}>
           <h2 className="text-4xl font-bold text-center p+b-12 text-orange-500">
             درباره من
           </h2>
