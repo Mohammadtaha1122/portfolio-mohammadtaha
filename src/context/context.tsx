@@ -13,13 +13,14 @@ import basalam from "@/assets/images/basalamIMG.png";
 import blog from "@/assets/images/blogIMG.png";
 import minishop from "@/assets/images/minishopIMG.png";
 import todo from "@/assets/images/todoIMG.png";
+import { StaticImageData } from "next/image";
 
 interface Project {
   id: number;
   title: string;
   description: string;
   link: string;
-  img: any;
+  img: StaticImageData;
 }
 
 interface ContextType {
