@@ -38,10 +38,8 @@ const Navbar = () => {
             className="rounded-full"
             height={50}
           />
-          <span
-            className={`${
-              darkMode ? "text-white" : "text-gray-700"
-            } text-xl max-sm:hidden`}
+          <span className={`${darkMode ? "text-white" : "text-gray-700"
+              } text-xl max-sm:hidden`}
           >
             Mohammad Taha
           </span>
@@ -50,10 +48,9 @@ const Navbar = () => {
           <li>
             <Link
               className={`pb-1 border-b-2 transition-all duration-300 ease-in-out
-                ${
-                  pathName === "/"
-                    ? "text-orange-400 border-orange-400"
-                    : "border-transparent"
+                ${pathName === "/"
+                  ? "text-orange-400 border-orange-400"
+                  : "border-transparent"
                 }
                 hover:text-orange-400 hover:border-orange-400`}
               href={"/"}
@@ -64,10 +61,9 @@ const Navbar = () => {
           <li>
             <Link
               className={`pb-1 border-b-2 transition-all duration-300 ease-in-out
-                ${
-                  pathName === "/about-me"
-                    ? "text-orange-400 border-orange-400"
-                    : "border-transparent"
+                ${pathName === "/about-me"
+                  ? "text-orange-400 border-orange-400"
+                  : "border-transparent"
                 }
                 hover:text-orange-400 hover:border-orange-400`}
               href={"/about-me"}
@@ -78,10 +74,9 @@ const Navbar = () => {
           <li>
             <Link
               className={`pb-1 border-b-2 transition-all duration-300 ease-in-out
-                ${
-                  pathName === "/projects"
-                    ? "text-orange-400 border-orange-400"
-                    : "border-transparent"
+                ${pathName === "/projects"
+                  ? "text-orange-400 border-orange-400"
+                  : "border-transparent"
                 }
                 hover:text-orange-400 hover:border-orange-400`}
               href={"/projects"}
@@ -92,10 +87,9 @@ const Navbar = () => {
           <li>
             <Link
               className={`pb-1 border-b-2 transition-all duration-300 ease-in-out
-                ${
-                  pathName === "/contact"
-                    ? "text-orange-400 border-orange-400"
-                    : "border-transparent"
+                ${pathName === "/contact"
+                  ? "text-orange-400 border-orange-400"
+                  : "border-transparent"
                 }
                 hover:text-orange-400 hover:border-orange-400`}
               href={"/contact"}
@@ -113,13 +107,13 @@ const Navbar = () => {
               ارتباط با من
             </button>
             <div
-              className={`absolute text-nowrap mt-4 max-lg:hidden text-center flex flex-col transition ease-in justify-center rounded-sm py-2 ${
-                conactOpen
-                  ? "opacity-100 scale-100"
-                  : "opacity-0 scale-95 pointer-events-none"
-              }`}
+              className={`absolute text-nowrap mt-4 max-lg:hidden text-center flex flex-col transition ease-in justify-center rounded-sm py-2 ${conactOpen
+                ? "opacity-100 scale-100"
+                : "opacity-0 scale-95 pointer-events-none"
+                }`}
             >
               <a
+                lang="en"
                 href="https://github.com/Mohammadtaha1122"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -140,6 +134,7 @@ const Navbar = () => {
                 </p>
               </a>
               <a
+                lang="en"
                 href="https://www.karlancer.com/profile/825958"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -151,7 +146,7 @@ const Navbar = () => {
                   width={24}
                   height={24}
                 />
-                <p className="text-white  font-bold text-base transition duration-400 py-1 pt-3 group-hover:text-[#0076fd]">
+                <p className="text-white  font-bold text-base transition duration-400 py-1 pt-2 pb-2 group-hover:text-[#0076fd]">
                   karancer
                 </p>
               </a>
@@ -225,11 +220,9 @@ const Navbar = () => {
           </button>
           <div>
             <ul
-              className={`sm:hidden fixed ease-in-out right-0 transition-transform duration-300 bg-black w-2/3 text-center gap-14 top-0 bottom-0 ${
-                navMenu ? "translate-x-0 " : "translate-x-full"
-              } flex flex-col h-full ${
-                darkMode ? "bg-black/90" : "bg-white/90"
-              } `}
+              className={`sm:hidden fixed ease-in-out right-0 transition-transform duration-300 bg-black w-2/3 text-center gap-14 top-0 bottom-0 ${navMenu ? "translate-x-0 " : "translate-x-full"
+                } flex flex-col h-full ${darkMode ? "bg-black/90" : "bg-white/90"
+                } `}
             >
               <button className="ml-5 mt-5" onClick={() => setNavMenu(false)}>
                 <svg
@@ -263,11 +256,10 @@ const Navbar = () => {
                 <Link
                   onClick={() => setNavMenu(false)}
                   className={`pb-1 border-b-2 transition-all duration-300 ease-in-out
-                  ${
-                    pathName === "/"
+                  ${pathName === "/"
                       ? "text-orange-400 border-orange-400"
                       : "border-transparent"
-                  }
+                    }
                   hover:text-orange-400 hover:border-orange-400`}
                   href={"/"}
                 >
@@ -278,11 +270,10 @@ const Navbar = () => {
                 <Link
                   onClick={() => setNavMenu(false)}
                   className={`pb-1 border-b-2 transition-all duration-300 ease-in-out
-                  ${
-                    pathName === "/about-me"
+                  ${pathName === "/about-me"
                       ? "text-orange-400 border-orange-400"
                       : "border-transparent"
-                  }
+                    }
                   hover:text-orange-400 hover:border-orange-400`}
                   href={"/about-me"}
                 >
@@ -293,11 +284,10 @@ const Navbar = () => {
                 <Link
                   onClick={() => setNavMenu(false)}
                   className={`pb-1 border-b-2 transition-all duration-300 ease-in-out
-                  ${
-                    pathName === "/projects"
+                  ${pathName === "/projects"
                       ? "text-orange-400 border-orange-400"
                       : "border-transparent"
-                  }
+                    }
                   hover:text-orange-400 hover:border-orange-400`}
                   href={"/projects"}
                 >
@@ -308,11 +298,10 @@ const Navbar = () => {
                 <Link
                   onClick={() => setNavMenu(false)}
                   className={`pb-1 border-b-2 transition-all duration-300 ease-in-out
-                  ${
-                    pathName === "/contact"
+                  ${pathName === "/contact"
                       ? "text-orange-400 border-orange-400"
                       : "border-transparent"
-                  }
+                    }
                   hover:text-orange-400 hover:border-orange-400`}
                   href={"/contact"}
                 >

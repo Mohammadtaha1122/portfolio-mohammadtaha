@@ -32,7 +32,7 @@ const Contact = () => {
     <div
       className="flex max-md:text-sm flex-col justify-center items-center min-h-screen py-20 bg-black/5"
     >
-      <div className={`${darkMode? 'bg-black/55': 'bg-white'} flex flex-col p-4 rounded-lg shadow-2xl text-center`}>
+      <div className={`${darkMode ? 'bg-black/55' : 'bg-white'} flex flex-col p-4 rounded-lg shadow-2xl text-center`}>
         <h1 className="text-[var(--orange)] font-bold text-2xl py-5">
           راه های ارتباط با من
         </h1>
@@ -40,7 +40,7 @@ const Contact = () => {
           <div key={item.id}>
             <div className=" flex flex-col gap-4 py-10">
               <h2 className="text-xl font-medium">{item.title}</h2>
-              <p>{item.content}</p>
+              <p className="text-[12px]" lang="en">{item.content}</p>
               {item.id === 1 ? (
                 <a
                   href={`mailto:${item.content}`}

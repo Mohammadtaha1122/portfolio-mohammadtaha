@@ -4,11 +4,11 @@ import Skills from "@/components/home/skills";
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <Header />
       <Skills />
       <ProjectsSlider />
-    </div>
+    </main>
   );
 }
 

@@ -109,8 +109,12 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="eng ">MohammadTaha</div>
-      <div className="w-full mt-5 text-center bg-orange-600 text-white text-md font-light py-1">made by MohammadTaha</div>
+      <div
+        lang="en"
+        className="eng ">MohammadTaha</div>
+      <div
+        lang="en"
+        className="w-full mt-5 text-center bg-orange-600 text-white text-md font-light py-1">made by MohammadTaha</div>
     </div>
   );
 };

@@ -1,49 +1,20 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: "Poppins";
-  src: url("../assets/poppins/Poppins-Light.ttf");
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../assets/poppins/Poppins-Regular.ttf");
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../assets/poppins/Poppins-Bold.ttf");
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("../assets/poppins/Poppins-Black.ttf");
-  font-weight: 900;
-}
 
 @font-face {
   font-family: "Vazirmatn";
-  src: url("../assets/vazirmatn/Vazirmatn-ExtraLight.ttf");
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Vazirmatn";
-  src: url("../assets/vazirmatn/Vazirmatn-Regular.ttf");
+  src: url("/fonts/Vazirmatn-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 @font-face {
   font-family: "Vazirmatn";
-  src: url("../assets/vazirmatn/Vazirmatn-Medium.ttf");
+  src: url("/fonts/Vazirmatn-Medium.ttf") format("truetype");
   font-weight: 500;
 }
 @font-face {
   font-family: "Vazirmatn";
-  src: url("../assets/vazirmatn/Vazirmatn-Bold.ttf");
+  src: url("/fonts/Vazirmatn-Bold.ttf") format("truetype");
   font-weight: 700;
-}
-@font-face {
-  font-family: "Vazirmatn";
-  src: url("../assets/vazirmatn/Vazirmatn-Black.ttf");
-  font-weight: 900;
 }
 
 .container {
@@ -78,19 +49,19 @@
   }
 }
 
-
-
 :root {
-  --orange: #FD6F00;
-}
-
-.eng {
-  font-family: 'Poppins',sans-serif;
+  --orange: #fd6f00;
 }
 
 body {
-  font-family: "Vazirmatn", sans-serif;
   font-size: 18px;
+}
+
+:lang(en) {
+  font-family: var(--font-poppins), sans-serif;
+}
+:lang(fa) {
+  font-family: "Vazirmatn", sans-serif;
 }
 
 .dark {
