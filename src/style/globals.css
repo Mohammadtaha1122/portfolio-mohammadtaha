@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/poppins/Poppins-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/poppins/Poppins-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../assets/poppins/Poppins-Black.ttf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../assets/vazirmatn/Vazirmatn-ExtraLight.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../assets/vazirmatn/Vazirmatn-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../assets/vazirmatn/Vazirmatn-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../assets/vazirmatn/Vazirmatn-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("../assets/vazirmatn/Vazirmatn-Black.ttf");
+  font-weight: 900;
+}
+
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1380px) {
+  .container {
+    max-width: 1180px;
+  }
+}
+
+
+
+:root {
+  --orange: #FD6F00;
+}
+
+.eng {
+  font-family: 'Poppins',sans-serif;
+}
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  font-size: 18px;
+}
+
+.dark {
+  background-color: rgb(24, 24, 24);
+  color: #fff;
+}
+
+/*
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
