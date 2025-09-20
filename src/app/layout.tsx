@@ -84,6 +84,7 @@ export default function RootLayout({
           }}
         />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
+        <meta name="google-site-verification" content="oY8CW8rm_ddjWCSbsRCAecg3EKE33lYDJrEIlwuAHP0" />
       </head>
 
       <body className={`${poppins.variable} font-sans`}>
