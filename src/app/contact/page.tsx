@@ -40,7 +40,7 @@ const Contact = () => {
           <div key={item.id}>
             <div className=" flex flex-col gap-4 py-10">
               <h2 className="text-xl font-medium">{item.title}</h2>
-              <p className="text-[12px]" lang="en">{item.content}</p>
+              <p className="max-sm:text-[12px]" lang="en">{item.content}</p>
               {item.id === 1 ? (
                 <a
                   href={`mailto:${item.content}`}
