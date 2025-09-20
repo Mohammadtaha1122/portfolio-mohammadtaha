@@ -40,7 +40,7 @@ const ProjectsSlider = () => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-[var(--orange)] px-6 py-3 rounded-lg text-sm w-1/2 text-center mx-auto font-medium shadow hover:shadow-lg hover:translate-y-[-2px] transition duration-200"
+                className="inline-block text-white bg-[var(--orange)] px-6 py-3 rounded-lg text-sm w-1/2 text-center mx-auto font-medium shadow hover:shadow-lg hover:translate-y-[-2px] transition duration-200"
               >
                 مشاهده پروژه
               </a>
