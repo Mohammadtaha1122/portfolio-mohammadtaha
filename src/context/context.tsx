@@ -13,6 +13,7 @@ import basalam from "@/assets/images/basalamIMG.png";
 import blog from "@/assets/images/blogIMG.png";
 import minishop from "@/assets/images/minishopIMG.png";
 import todo from "@/assets/images/todoIMG.png";
+import userPanle from '@/assets/images/usersPanelImg.png'
 import { StaticImageData } from "next/image";
 
 interface Project {
@@ -64,6 +65,14 @@ export const ContextProvider = ({ children }: { children: ReactNode }) => {
         "این پروژه یک پلتفرم بلاگ است که با Next.js، React و Tailwind CSS ساخته شده. مقالات فنی، نکات کدنویسی و مطالب آموزشی در حوزه JavaScript و React منتشر می‌شود. رابط کاربری تمیز، ریسپانسیو و تجربه کاربری خوب داره.",
       link: "https://blog-gamma-pink-58.vercel.app/",
       img: blog,
+    },
+    {
+      id: 5,
+      title: "پنل ادمین کاربر",
+      description:
+        "یک پنل کاربری مدرن و واکنش‌گرا با , Next.js , react js typescript و Tailwind طراحی شده که شامل مدیریت پروفایل، نمایش اطلاعات و رابط کاربری ساده و کاربردی می‌باشد.",
+      link: "https://users-panel-six.vercel.app/",
+      img: userPanle,
     },
   ];
 
