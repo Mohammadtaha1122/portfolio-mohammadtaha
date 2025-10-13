@@ -71,6 +71,7 @@ export default function RootLayout({
               "name": "MohammadTaha Maleki",
               "url": "https://www.mohammadtaha-portfolio.ir",
               "image": "https://www.mohammadtaha-portfolio.ir/assets/images/profilLogo.png",
+              "logo": "https://mohammadtaha-portfolio.ir/grathImg.jpg",
               "sameAs": [
                 "https://github.com/Mohammadtaha1122",
                 "https://www.linkedin.com/in/mohammadtaha-maleki-885170384/"
