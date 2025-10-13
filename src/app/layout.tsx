@@ -19,12 +19,13 @@ export const metadata: Metadata = {
   keywords: [
     "react", "react js", "next", "next js",
     "front end", "front end developer",
-    "mohammadtaha", "mohammadtaha maleki",
+    "mohammadtaha","mohammadtaha portfolio" , "mohammadtaha maleki",
+    "mohammadtaha maleki portfolio",
     "tailwind", "tailwindcss", "typescript",
     "portfolio",
     "ری اکت", "ری اکت جی اس", "نکست", "نکست جی اس",
-    "فرانت اند", "فرانت اند دولوپر", "محمدطاها", "محمدطاها ملکی", "پورتفولیو",
-    "تیلویند", "تیلویند سی اس اس", "تایپ اسکریپت",
+    "فرانت اند", "فرانت اند دولوپر", "محمدطاها", "محمدطاها ملکی", "محمدطاها پورتفولیو", "محمدطاها ملکی پورتفولیو", "پورتفولیو",
+    "تیلویند", "تیلویند سی اس اس", "تایپ اسکریپت", "محمدطاها نمونه کار ها", "محمدطاها ملکی نمونه کار ها",
     "web development", "frontend development", "javascript developer",
     "توسعه وب", "برنامه نویس جاوااسکریپت", "توسعه‌دهنده فرانت‌اند"
   ],
@@ -90,7 +91,7 @@ export default function RootLayout({
         />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
         <meta name="google-site-verification" content="oY8CW8rm_ddjWCSbsRCAecg3EKE33lYDJrEIlwuAHP0" />
-        <meta property="og:image" content="https://mohammadtaha-portfolio.ir/grathimg.jpg" />
+        <meta property="og:image" content="https://mohammadtaha-portfolio.ir/grathImg.jpg" />
       </head>
 
       <body className={`${poppins.variable} font-sans`}>
