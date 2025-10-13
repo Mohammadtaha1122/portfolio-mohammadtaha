@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "MohammadTaha Portfolio",
     images: [
       {
-        url: "/grathImg.png",
+        url: "/grathImg.jpg",
         width: 1200,
         height: 630,
         alt: "MohammadTaha Portfolio Preview",
@@ -71,21 +71,26 @@ export default function RootLayout({
               "url": "https://www.mohammadtaha-portfolio.ir",
               "image": "https://www.mohammadtaha-portfolio.ir/assets/images/profilLogo.png",
               "sameAs": [
-                "https://github.com/username",
-                "https://www.linkedin.com/in/username/"
+                "https://github.com/Mohammadtaha1122",
+                "https://www.linkedin.com/in/mohammadtaha-maleki-885170384/"
               ],
               "jobTitle": "Frontend Developer",
               "knowsAbout": [
-                "React",
+                "Frontend Development",
+                "React.js",
                 "Next.js",
+                "TypeScript",
                 "JavaScript",
-                "TailwindCSS"
+                "Tailwind CSS",
+                "Responsive Design",
+                "Web Performance Optimization"
               ]
             }),
           }}
         />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
         <meta name="google-site-verification" content="oY8CW8rm_ddjWCSbsRCAecg3EKE33lYDJrEIlwuAHP0" />
+        <meta property="og:image" content="https://mohammadtaha-portfolio.ir/grathimg.jpg" />
       </head>
 
       <body className={`${poppins.variable} font-sans`}>
@@ -93,7 +98,7 @@ export default function RootLayout({
           <Navbar />
           <div dir="rtl" className="min-h-screen">{children}</div>
           <SpeedInsights />
-          <Analytics/>
+          <Analytics />
           <Footer />
         </ContextProvider>
       </body>
