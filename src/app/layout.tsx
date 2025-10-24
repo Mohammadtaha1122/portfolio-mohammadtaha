@@ -14,8 +14,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "MohammadTaha | Frontend Developer",
-  description: "Hi! I'm MohammadTaha, a young frontend developer passionate about React and building modern web experiences.",
+  title: "محمدطاها | Mohammad Taha | Frontend Developer",
+  description: `Hi! I'm MohammadTaha, a young frontend developer passionate about React and building modern web experiences.
+  سلام! من محمدطاها هستم، یک توسعه‌دهنده جوان فرانت‌اند که به ری اکت و ساخت تجربیات وب مدرن علاقه دارم.`,
   keywords: [
     "react", "react js", "next", "next js",
     "front end", "front end developer",
@@ -33,8 +34,9 @@ export const metadata: Metadata = {
   robots: "index, follow",
   viewport: "width=device-width, initial-scale=1.0",
   openGraph: {
-    title: "MohammadTaha | Frontend Developer",
-    description: "Hi! I'm MohammadTaha, a young frontend developer passionate about React and building modern web experiences.",
+    title: "محمدطاها | Mohammad Taha | Frontend Developer",
+    description: `Hi! I'm MohammadTaha, a young frontend developer passionate about React and building modern web experiences.
+  سلام! من محمدطاها هستم، یک توسعه‌دهنده جوان فرانت‌اند که به ری اکت و ساخت تجربیات وب مدرن علاقه دارم.`,
     url: "https://www.mohammadtaha-portfolio.ir",
     siteName: "MohammadTaha Portfolio",
     images: [
@@ -68,13 +70,14 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "MohammadTaha Maleki",
+              "name": "محمدطاها ملکی MohammadTaha Maleki",
               "url": "https://www.mohammadtaha-portfolio.ir",
               "image": "https://www.mohammadtaha-portfolio.ir/assets/images/profilLogo.png",
               "logo": "https://mohammadtaha-portfolio.ir/grathImg.jpg",
               "sameAs": [
                 "https://github.com/Mohammadtaha1122",
-                "https://www.linkedin.com/in/mohammadtaha-maleki-885170384/"
+                "https://www.linkedin.com/in/mohammadtaha-maleki-885170384/",
+                "https://www.karlancer.com/profile/825958"
               ],
               "jobTitle": "Frontend Developer",
               "knowsAbout": [
@@ -92,7 +95,7 @@ export default function RootLayout({
         />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
         <meta name="google-site-verification" content="oY8CW8rm_ddjWCSbsRCAecg3EKE33lYDJrEIlwuAHP0" />
-        <meta property="og:image" content="https://mohammadtaha-portfolio.ir/grathImg.jpg" />
+        <meta property="og:image" content="/grathImg.jpg" />
       </head>
 
       <body className={`${poppins.variable} font-sans`}>
